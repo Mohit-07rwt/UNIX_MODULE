@@ -1,0 +1,4 @@
+ls
+cal
+pwd
+cp cmd.txt cmd2.txt
