@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+#include<sys/types.h>
+#include<unistd.h>
+#include<sys/wait.h>
+#include<fcntl.h>
+#include<dirent.h>
+#include<sys/stat.h>
+#include<sys/msg.h>
+#include<sys/ipc.h>
+#include<sys/shm.h>

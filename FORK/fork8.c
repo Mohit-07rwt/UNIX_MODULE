@@ -1,0 +1,30 @@
+#include"header.h"
+void main()
+{
+	if(fork()==0)
+	{
+		printf("child1...\n");
+		if(fork()==0)
+		{
+			printf("child2...\n");
+			if(fork()==0)
+			{
+				printf("child3...\n");
+				if(fork()==0)
+				{
+					printf("child4...\n");
+				}
+				else
+					printf("child3...\n");
+			}
+			else
+				printf("child2...\n");
+		}
+		else
+			printf("child1...\n");
+	}
+	else
+		printf("parent...\n");
+
+	while(1);
+}
